@@ -1,0 +1,69 @@
+name: facebook_clone
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # firebase
+  cloud_firestore: ^4.8.4
+  firebase_auth: ^4.7.2
+  firebase_core: ^2.15.0
+  firebase_storage: ^11.2.5
+  
+  # birthday date picker
+  flutter_holo_date_picker: ^1.1.0
+
+  # for providing icons
+  font_awesome_flutter: ^10.5.0
+
+  # formatting dates and timeago
+  jiffy: ^6.2.1
+
+  # generating ids for users
+  uuid: ^3.0.7
+
+  # state management
+  flutter_riverpod: ^2.3.7
+
+  # show toast message
+  fluttertoast: ^8.2.2
+
+  # pick images
+  image_picker: ^1.0.2
+
+  # play videos
+  video_player: ^2.0.4
+  chewie: ^1.7.1
+
+  # for displaying the stories
+  story_view: ^0.15.0
+
+  #icon logo
+  flutter_launcher_icons: ^0.13.1
+  
+  #darkmode
+  day_night_switcher: ^0.2.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_icons:
+  android: "launcher_icon"
+  image_path: "assets/icons/fb_logo.png"
+  min_sdk_android: 21
+  ios: false
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
